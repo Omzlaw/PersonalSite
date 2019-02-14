@@ -1,0 +1,17 @@
+<%- include("partials/header2") %>
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container cont">
+    <%posts.forEach(function(post){%>
+      <form class="" action="/mymessages/delete" method="post">
+
+        <h5><input type="checkbox"  name="checkbox" value="<%= post._id%>" onChange="this.form.submit()"><span> </span><%= post.email%></h5>
+        <h6><%= post.subject%></h6>
+        <p><%= post.message%></p>
+      </form>
+  <%  })%>
+  </div>
+</div>
+
+
+<%- include("partials/footer") %>

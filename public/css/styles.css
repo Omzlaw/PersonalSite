@@ -1,0 +1,203 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', sans-serif;
+  color: grey;
+
+}
+
+
+
+.custom {
+  background-color: #deecff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.custom2 {
+  margin: auto;
+}
+
+.custom2 a {
+  font-size: 22px;
+}
+
+.navbar-brand {
+  font-size: 22px;
+  margin-left: 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+.nav-item {
+  margin-right: 100px;
+}
+
+/* Home Styles */
+.home {
+  background-color: #deecff;
+  text-align: center;
+  padding: 30px 0 30px;
+  padding-bottom: 0px;
+  position: relative;
+}
+
+.profile {
+  width: 300px;
+  height: 300px;
+}
+
+.web1 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 300px;
+  top: 290px;
+
+}
+
+
+
+
+
+
+.home h1 {
+  font-family: 'Courgette', cursive;
+  color: #8ed6ff;
+  font-size: 30px;
+}
+
+.home p {
+  font-family: 'Lato', sans-serif;
+  font-size: 60px;
+  color: #1c819e;
+}
+
+.mountain {
+  margin-top: 70px;
+  height: 200px;
+  width: 100%;
+}
+
+/* About Styles */
+
+.about {
+  margin-top: 60px;
+}
+/* font-family: 'Source Sans Pro', sans-serif; */
+.about p {
+  font-family: 'Lato', sans-serif;
+  color: grey;
+  line-height: 2;
+  font-size: 20px;
+}
+
+.about h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #74b49b;
+  font-weight: bold;
+}
+
+.firstp {
+  width: 45%;
+  color: grey;
+  margin: auto;
+  line-height: 2;
+  font-family: 'Lato', sans-serif;
+}
+
+h3 {
+  color: #74b49b;
+}
+
+.about h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #74b49b;
+  font-weight: bold;
+  font-size: 70px;
+  margin-top: 150px;
+}
+
+.myImage {
+  height: 200px;
+}
+
+.about-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.a {
+
+  margin-right: 30px;
+  float: left;
+}
+
+.b {
+
+  margin-left: 30px;
+  float: right;
+  transform: rotateY(180deg);
+}
+
+
+/* Contact styles */
+
+.Contact {
+  background-color: #deecff;
+  margin-top: 60px;
+  padding: 50px 0 50px;
+}
+
+form {
+  margin: auto;
+  width: 30%;
+  text-align: center;
+}
+
+.Contact h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 60px;
+  color: #1c819e;
+}
+
+.p {
+  font-family: 'Courgette', cursive;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.p2 {
+  font-family: 'Courgette', cursive;
+  color: #8ed6ff;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+
+.footer{
+  background-color: white;
+  margin-bottom: 0;
+  padding: 50px 0 20px;
+}
+
+.copyright{
+  color: #1c819e;
+  font-size: 0.75em;
+  padding: 20px 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.footer-link {
+  margin: auto;
+  text-align: center;
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+.cont p {
+  text-align: justify;
+}

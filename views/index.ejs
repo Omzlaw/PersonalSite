@@ -1,0 +1,95 @@
+<%- include("partials/header") %>
+
+<section id="Home">
+  <div class="home">
+    <img class="profile" src="img/myProfile.png" alt="myProfile">
+    <img class="web1" src="img/web.png" alt="webImage">
+    <h1>Hello!!! I'm Omeiza</h1>
+    <p>A Web Developer & Designer</p>
+    <img class="mountain" src="img/mountain.png" alt="mountainImage">
+  </div>
+</section>
+
+<section id="AboutMe">
+  <div class="about">
+    <img class="myImage" src="img/myImage.png" alt="myProfile">
+    <h1>Howdy!!!.</h1>
+    <p class="firstp">I'm a Web Developer. If you are looking for fullstack experience,
+      look no further. I will develop both the front-end and back-end for you</p>
+    <h2>You know what? 😁</h2>
+    <div class="about-row">
+      <img class="myImage a" src="img/myImage.png" alt="myProfile">
+      <h3>Design</h3>
+      <p>I will design what you want. Just say it, I'm gonna do it. From good LAYOUTS, COLORS to TYPOGRAPHY 😉.</p>
+    </div>
+    <div class="about-row">
+      <img class="myImage b" src="img/myImage.png" alt="myProfile">
+      <h3>Develop</h3>
+      <p>Speaking of backend: I got you. From the server to database, all settled with Node.js and
+        many more modules and frameworks.😄</p>
+    </div>
+    <div class="about-row">
+      <img class="myImage a" src="img/myImage.png" alt="myProfile">
+      <h3>Optimize</h3>
+      <p>Who doesn't like a website fully optimized to be found by any search engine.
+        Your business or whatever deserves a HIGH RANKING and I will do just that😃</p>
+    </div>
+    <div class="about-row">
+      <img class="myImage b" src="img/myImage.png" alt="myProfile">
+      <h3>Security</h3>
+      <p>Everyone loves security, so also your website. From server to database and password secuirty.
+        I have got you covered🎉</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="ContactMe">
+  <div class="Contact">
+    <h1>What are you waiting for?</h1>
+    <p class="p">Let's get started</p>
+    <p class="p2">Get in touch on <a class="btn btn-outline-dark footer-link" href="https://www.fiverr.com/omeizaalabi">Fiverr</a></p>
+    <p class="p">Or</p>
+    <form class="needs-validation" novalidate action="/" method="post">
+      <div class="form-row">
+        <div class="col-lg-12 col-md-4 mb-3">
+          <label>Email</label>
+          <div class="input-group">
+            <input name="email" type="email" class="form-control" placeholder="Email" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Please use a valid email.
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-4 mb-3">
+          <label>Subject</label>
+          <input name="subject" type="text" class="form-control" placeholder="Subject" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-auto col-lg-12 col-md-4 mb-3">
+          <label>Message</label>
+          <br>
+          <small>Maximum of 384 characters. Please keep it short.</small>
+          <textarea class="form-control " maxlength="384" name="message" rows="8" cols="80"placeholder="What's your request?" required></textarea>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-primary" type="submit">Contact Me</button>
+    </form>
+  </div>
+</section>
+
+<section id="footer">
+  <div class="footer">
+    <a class="btn btn-outline-success footer-link" href=https://www.fiverr.com/omeizaalabi>Fiverr </a> <a class="btn btn-outline-success footer-link" href="https://twitter.com/Om_zLaw"><i class="fab fa-twitter"></i>Twitter</a>
+    <a class="btn btn-outline-success footer-link" href=https://www.instagram.com/omzz_laww/> <i class="fab fa-instagram"></i>Instagram</a>
+    <a class="btn btn-outline-success footer-link" href=https://www.facebook.com/iam.omeiza> <i class="fab fa-facebook"></i>Facebook</a>
+    <p class="copyright">© 2019 Omeiza Alabi.</p>
+  </div>
+</section>
+
+<%- include("partials/footer") %>

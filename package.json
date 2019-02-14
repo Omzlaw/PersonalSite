@@ -1,0 +1,22 @@
+{
+  "name": "mywebsite",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web",
+    "development"
+  ],
+  "author": "Omeiza Alabi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.11"
+  }
+}
