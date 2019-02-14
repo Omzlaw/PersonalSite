@@ -48,11 +48,11 @@ body{
 }
 
 .web1 {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   position: absolute;
-  left: 300px;
-  top: 290px;
+  left: 30%;
+  top: 50%;
 
 }
 
@@ -196,6 +196,7 @@ form {
   text-align: center;
   margin-right: 30px;
   text-decoration: none;
+  margin-bottom: 20px;
 }
 
 .cont p {
