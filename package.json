@@ -12,6 +12,9 @@
   ],
   "author": "Omeiza Alabi",
   "license": "ISC",
+  "engines": {
+    "node": "10.15.0"
+  },
   "dependencies": {
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
