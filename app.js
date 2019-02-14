@@ -32,7 +32,7 @@ app.get("/", function(req, res){
 
 app.get("/mymessages", function(req, res){
   User.find({}, function(err, post){
-    res.render("mymessages", {
+    res.render("myMessages", {
       posts: post
     });
   });
